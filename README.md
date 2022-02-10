@@ -15,3 +15,8 @@ SVM
 Logistic Regression
 metrics
 train_test_split We are making accuracy and prediction in Iris project through Iris Dataset. This is easy and understable for machine learning staters( Naive ).
+
+
+3 Music Recommendation System
+
+The basic idea of this project is to recommend music using computer vision through a convolutional neural network. The network is first trained as a classifier with the labels being the 8 different genres of songs from the dataset. The trained network is then modified by discarding the softmax layer i.e. creating a new model which works as an encoder.
